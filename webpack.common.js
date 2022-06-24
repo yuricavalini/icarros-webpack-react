@@ -16,7 +16,7 @@ const common = {
         loader: 'babel-loader',
         exclude: /node_modules/,
         options: {
-          presets: ['babel/preset-react'],
+          presets: ['@babel/preset-react'],
         },
       },
       {
@@ -43,7 +43,7 @@ const common = {
     ],
   },
   resolve: {
-    extensions: ['.ts', '.js', '.tsx', '.jsx', '.scss', '.sass', '.css'],
+    extensions: ['.ts', '.js', '.tsx', '.jsx', '.scss', '.sass'],
     alias: {
       '@': path.join(__dirname, 'src'),
     },
@@ -63,7 +63,7 @@ const mergeRule = {
       use: 'prepend',
     },
   },
-  plugins: 'preprend',
+  plugins: 'prepend',
 };
 
 module.exports = { common, mergeRule };

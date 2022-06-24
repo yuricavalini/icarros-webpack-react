@@ -2,14 +2,14 @@
 
 ## Módulo Global do WEBPACK
 
-### Dependências:
+### Dependências
 
 `dotenv`
 `webpack-merge`
 
 ## Módulos em commum do WEBPACK
 
-### Dependências (webpack.common.js):
+### Dependências (webpack.common.js)
 
 `webpack`
 `clean-webpack-plugin`
@@ -21,3 +21,17 @@
 `style-loader`
 `css-loader`
 `sass-loader`
+
+### Dependências (webpack.dev.js)
+
+`html-webpack-plugin`
+
+### Dependências (webpack.prod.js)
+
+`mini-css-extract-plugin`
+
+## Dependências do Projeto React
+
+`react`
+`react-dom`
+`react-router-dom`
